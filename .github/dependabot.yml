@@ -1,0 +1,33 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+
+registries:
+  public:
+    type: nuget-feed
+    url: https://api.nuget.org/v3/index.json
+  private:
+    type: nuget-feed
+    url: https://nuget.pkg.github.com/technosoftware-gmbh/index.json
+    token: ${{secrets.DEPENDABOT_PAT}}    
+
+updates:
+# Set update schedule for GitHub Actions
+- package-ecosystem: "github-actions"
+  labels:
+    - "actions"
+  directory: "./"
+  schedule:
+    interval: "weekly"
+
+- package-ecosystem: "nuget"
+  labels:
+    - "nuget"
+  directory: "/"
+  registries: "*"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10

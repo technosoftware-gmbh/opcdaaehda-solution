@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Technosoftware.OpcRcw</name>
+    </assembly>
+    <members>
+        <member name="T:Technosoftware.OpcRcw.Ae.CATID_OPCAEServer10">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Ae.OPCAEBROWSEDIRECTION">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Ae.OPCAEBROWSETYPE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Ae.OPCEVENTSERVERSTATE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Ae.FILETIME">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Ae.ONEVENTSTRUCT">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Ae.OPCEVENTSERVERSTATUS">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Ae.OPCCONDITIONSTATE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Ae.IOPCEventServer">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Ae.IOPCEventSubscriptionMgt">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Ae.IOPCEventAreaBrowser">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Ae.IOPCEventSink">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Ae.IOPCEventServer2">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Ae.IOPCEventSubscriptionMgt2">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Ae.Constants">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Comn.CONNECTDATA">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Comn.IEnumConnections">
+            <exclude />
+        </member>
+        <member name="M:Technosoftware.OpcRcw.Comn.IEnumConnections.RemoteNext(System.Int32,System.IntPtr,System.Int32@)">
+            <summary>
+            Retrieves a specified number of items in the enumeration sequence.
+            </summary>
+            <param name="cConnections"></param>
+            <param name="rgcd"></param>
+            <param name="pcFetched"></param>
+        </member>
+        <member name="M:Technosoftware.OpcRcw.Comn.IEnumConnections.Skip(System.Int32)">
+            <summary>
+            Skips a specified number of items in the enumeration sequence.
+            </summary>
+            <param name="cConnections"></param>
+        </member>
+        <member name="M:Technosoftware.OpcRcw.Comn.IEnumConnections.Reset">
+            <summary>
+            Retrieves a specified number of items in the enumeration sequence.
+            </summary>
+        </member>
+        <member name="M:Technosoftware.OpcRcw.Comn.IEnumConnections.Clone(Technosoftware.OpcRcw.Comn.IEnumConnections@)">
+            <summary>
+            Creates a new enumerator that contains the same enumeration state as the current one.
+            </summary>
+            <param name="ppEnum"></param>
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Comn.IConnectionPoint">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Comn.IEnumConnectionPoints">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Comn.IConnectionPointContainer">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Comn.IOPCShutdown">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Comn.IOPCCommon">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Comn.IOPCServerList">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Comn.IOPCEnumGUID">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Comn.IEnumGUID">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Comn.IEnumUnknown">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Comn.IEnumString">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Comn.IOPCServerList2">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.CATID_OPCDAServer10">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.CATID_OPCDAServer20">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.CATID_OPCDAServer30">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.CATID_XMLDAServer10">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.FILETIME">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCDATASOURCE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCBROWSETYPE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCNAMESPACETYPE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCBROWSEDIRECTION">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCEUTYPE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCSERVERSTATE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCENUMSCOPE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCGROUPHEADER">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCITEMHEADER1">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCITEMHEADER2">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCGROUPHEADERWRITE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCITEMHEADERWRITE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCITEMSTATE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCSERVERSTATUS">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCITEMDEF">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCITEMATTRIBUTES">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCITEMRESULT">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCITEMPROPERTY">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCITEMPROPERTIES">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCBROWSEELEMENT">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCITEMVQT">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.OPCBROWSEFILTER">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCServer">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCServerPublicGroups">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCBrowseServerAddressSpace">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCGroupStateMgt">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCPublicGroupStateMgt">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCSyncIO">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCAsyncIO">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCItemMgt">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IEnumOPCItemAttributes">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCDataCallback">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCAsyncIO2">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCItemProperties">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCItemDeadbandMgt">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCItemSamplingMgt">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCBrowse">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCItemIO">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCSyncIO2">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCAsyncIO3">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.IOPCGroupStateMgt2">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.Constants">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.Qualities">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Da.Properties">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.CATID_OPCHDAServer10">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.OPCHDA_FILETIME">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.OPCHDA_SERVERSTATUS">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.OPCHDA_BROWSEDIRECTION">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.OPCHDA_BROWSETYPE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.OPCHDA_ANNOTATIONCAPABILITIES">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.OPCHDA_UPDATECAPABILITIES">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.OPCHDA_OPERATORCODES">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.OPCHDA_EDITTYPE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.OPCHDA_AGGREGATE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.OPCHDA_ANNOTATION">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.OPCHDA_MODIFIEDITEM">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.OPCHDA_ATTRIBUTE">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.OPCHDA_TIME">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.OPCHDA_ITEM">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.IOPCHDA_Browser">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.IOPCHDA_Server">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.IOPCHDA_SyncRead">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.IOPCHDA_SyncUpdate">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.IOPCHDA_SyncAnnotations">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.IOPCHDA_AsyncRead">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.IOPCHDA_AsyncUpdate">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.IOPCHDA_AsyncAnnotations">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.IOPCHDA_Playback">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.IOPCHDA_DataCallback">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Hda.Constants">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Security.IOPCSecurityNT">
+            <exclude />
+        </member>
+        <member name="T:Technosoftware.OpcRcw.Security.IOPCSecurityPrivate">
+            <exclude />
+        </member>
+    </members>
+</doc>

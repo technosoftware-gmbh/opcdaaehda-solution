@@ -1,0 +1,17 @@
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\bin\Release\net7.0-windows\Technosoftware.DaAeHdaClient.deps.json
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\bin\Release\net7.0-windows\Technosoftware.DaAeHdaClient.dll
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\bin\Release\net7.0-windows\Technosoftware.DaAeHdaClient.pdb
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\bin\Release\net7.0-windows\Technosoftware.DaAeHdaClient.xml
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\obj\Release\net7.0-windows\Technosoftware.DaAeHdaClient.Properties.Resources.resources
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\obj\Release\net7.0-windows\Technosoftware.DaAeHdaClient.Resources.Strings.resources
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\obj\Release\net7.0-windows\Technosoftware.DaAeHdaClient.csproj.GenerateResource.cache
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\obj\Release\net7.0-windows\Technosoftware.DaAeHdaClient.GeneratedMSBuildEditorConfig.editorconfig
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\obj\Release\net7.0-windows\Technosoftware.DaAeHdaClient.AssemblyInfoInputs.cache
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\obj\Release\net7.0-windows\Technosoftware.DaAeHdaClient.AssemblyInfo.cs
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\obj\Release\net7.0-windows\Technosoftware.DaAeHdaClient.csproj.CoreCompileInputs.cache
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\obj\Release\net7.0-windows\Technosoftware.DaAeHdaClient.sourcelink.json
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\obj\Release\net7.0-windows\Technosoftware.DaAeHdaClient.dll
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\obj\Release\net7.0-windows\refint\Technosoftware.DaAeHdaClient.dll
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\obj\Release\net7.0-windows\Technosoftware.DaAeHdaClient.xml
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\obj\Release\net7.0-windows\Technosoftware.DaAeHdaClient.pdb
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\DaAeHdaClient\obj\Release\net7.0-windows\ref\Technosoftware.DaAeHdaClient.dll

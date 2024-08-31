@@ -1,0 +1,16 @@
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\bin\Release\net48\Technosoftware.OpcRcw.dll
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\bin\Release\net48\Technosoftware.OpcRcw.pdb
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\bin\Release\net48\Technosoftware.OpcRcw.xml
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\bin\Release\net48\Microsoft.Win32.Registry.dll
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\bin\Release\net48\System.Security.AccessControl.dll
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\bin\Release\net48\System.Security.Principal.Windows.dll
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net48\Technosoftware.OpcRcw.csproj.AssemblyReference.cache
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net48\Technosoftware.OpcRcw.GeneratedMSBuildEditorConfig.editorconfig
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net48\Technosoftware.OpcRcw.AssemblyInfoInputs.cache
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net48\Technosoftware.OpcRcw.AssemblyInfo.cs
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net48\Technosoftware.OpcRcw.csproj.CoreCompileInputs.cache
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net48\Technosoftware.OpcRcw.sourcelink.json
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net48\Technosoftware.OpcRcw.csproj.CopyComplete
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net48\Technosoftware.OpcRcw.dll
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net48\Technosoftware.OpcRcw.xml
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net48\Technosoftware.OpcRcw.pdb

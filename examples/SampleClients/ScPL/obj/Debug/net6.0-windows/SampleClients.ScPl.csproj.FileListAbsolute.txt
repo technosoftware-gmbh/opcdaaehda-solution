@@ -1,0 +1,12 @@
+C:\opcdaaehda-solution\examples\SampleClients\ScPL\bin\Debug\net6.0-windows\SampleClients.ScPl.deps.json
+C:\opcdaaehda-solution\examples\SampleClients\ScPL\bin\Debug\net6.0-windows\SampleClients.ScPl.dll
+C:\opcdaaehda-solution\examples\SampleClients\ScPL\bin\Debug\net6.0-windows\SampleClients.ScPl.pdb
+C:\opcdaaehda-solution\examples\SampleClients\ScPL\obj\Debug\net6.0-windows\SampleClients.ScPl.csproj.AssemblyReference.cache
+C:\opcdaaehda-solution\examples\SampleClients\ScPL\obj\Debug\net6.0-windows\SampleClients.ScPl.Windows.PlotSurface2D.resources
+C:\opcdaaehda-solution\examples\SampleClients\ScPL\obj\Debug\net6.0-windows\SampleClients.ScPl.csproj.GenerateResource.cache
+C:\opcdaaehda-solution\examples\SampleClients\ScPL\obj\Debug\net6.0-windows\SampleClients.ScPl.GeneratedMSBuildEditorConfig.editorconfig
+C:\opcdaaehda-solution\examples\SampleClients\ScPL\obj\Debug\net6.0-windows\SampleClients.ScPl.csproj.CoreCompileInputs.cache
+C:\opcdaaehda-solution\examples\SampleClients\ScPL\obj\Debug\net6.0-windows\SampleClients.ScPl.dll
+C:\opcdaaehda-solution\examples\SampleClients\ScPL\obj\Debug\net6.0-windows\refint\SampleClients.ScPl.dll
+C:\opcdaaehda-solution\examples\SampleClients\ScPL\obj\Debug\net6.0-windows\SampleClients.ScPl.pdb
+C:\opcdaaehda-solution\examples\SampleClients\ScPL\obj\Debug\net6.0-windows\ref\SampleClients.ScPl.dll

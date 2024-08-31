@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Technosoftware.DaAeHdaClient
+build_property.ProjectDir = C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

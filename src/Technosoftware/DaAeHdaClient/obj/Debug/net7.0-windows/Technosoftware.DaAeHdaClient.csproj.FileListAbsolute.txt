@@ -1,0 +1,16 @@
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\bin\Debug\net7.0-windows\Technosoftware.DaAeHdaClient.deps.json
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\bin\Debug\net7.0-windows\Technosoftware.DaAeHdaClient.dll
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\bin\Debug\net7.0-windows\Technosoftware.DaAeHdaClient.pdb
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\bin\Debug\net7.0-windows\Technosoftware.DaAeHdaClient.xml
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\obj\Debug\net7.0-windows\Technosoftware.DaAeHdaClient.Properties.Resources.resources
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\obj\Debug\net7.0-windows\Technosoftware.DaAeHdaClient.Resources.Strings.resources
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\obj\Debug\net7.0-windows\Technosoftware.DaAeHdaClient.csproj.GenerateResource.cache
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\obj\Debug\net7.0-windows\Technosoftware.DaAeHdaClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\obj\Debug\net7.0-windows\Technosoftware.DaAeHdaClient.AssemblyInfoInputs.cache
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\obj\Debug\net7.0-windows\Technosoftware.DaAeHdaClient.AssemblyInfo.cs
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\obj\Debug\net7.0-windows\Technosoftware.DaAeHdaClient.csproj.CoreCompileInputs.cache
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\obj\Debug\net7.0-windows\Technosoftware.DaAeHdaClient.dll
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\obj\Debug\net7.0-windows\refint\Technosoftware.DaAeHdaClient.dll
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\obj\Debug\net7.0-windows\Technosoftware.DaAeHdaClient.xml
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\obj\Debug\net7.0-windows\Technosoftware.DaAeHdaClient.pdb
+C:\opcdaaehda-solution\src\Technosoftware\DaAeHdaClient\obj\Debug\net7.0-windows\ref\Technosoftware.DaAeHdaClient.dll

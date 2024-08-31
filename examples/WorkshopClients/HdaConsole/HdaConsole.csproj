@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>$(WorkshopClientTargetFrameworks)</TargetFrameworks>
+    <LangVersion>9.0</LangVersion>
+    <AssemblyName>Technosoftware.HdaClientConsole</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>Technosoftware.HdaClientConsole</PackageId>
+    <Company>Technosoftware GmbH</Company>
+    <Product>OPC DA/AE/HDA Solution .NET</Product>
+    <Description>Technosoftware HDA Client Console</Description>
+    <Copyright>Copyright © 2011 - 2023 Technosoftware GmbH</Copyright>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Technosoftware.DaAeHdaSolution.DaAeHdaClient" Version="2.0.2" />
+  </ItemGroup>
+
+</Project>

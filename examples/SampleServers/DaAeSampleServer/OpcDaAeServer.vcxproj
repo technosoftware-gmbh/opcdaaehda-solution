@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>OpcDaAeServer</ProjectName>
+    <ProjectGuid>{A25CED39-DBFD-47C1-AC29-D3D07D70BF9B}</ProjectGuid>
+    <RootNamespace>ClassiDaComServer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>$(Platform)\$(Configuration)/ClassiDaComServer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>.;..\..\..\src\Technosoftware\Server\System;..\..\..\src\Technosoftware\Server\System\inc32;..\..\..\src\Technosoftware\Server\Core;..\..\..\src\Technosoftware\Server\Da;..\..\..\src\Technosoftware\Server\Ae;..\..\..\src\Technosoftware\Server\Customization;..\..\..\src\Technosoftware\Server\Plugin;..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_OPC_WIN32;_OPC_SRV_DA;_OPC_SRV_AE;WIN32;_WINDOWS;_NT_SERVICE;_CRT_SECURE_NO_WARNINGS;SWIFTOPC_NO_UNWINDOWS;%(PreprocessorDefinitions);TECHNOSOFTWARE_NO_UNWINDOWS</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>$(Platform)\$(Configuration)/ClassiDaComServer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(Platform)\$(Configuration)/</AssemblerListingLocation>
+      <ObjectFileName>$(Platform)\$(Configuration)/</ObjectFileName>
+      <ProgramDataBaseFileName>$(Platform)\$(Configuration)/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_OPC_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(Platform)\$(Configuration)/OpcDaAeServer.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>$(Platform)\$(Configuration)/ClassiDaComServer.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>$(Platform)\$(Configuration)/ClassiDaComServer.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>$(Platform)\$(Configuration)/ClassiDaComServer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>.;..\..\..\src\Technosoftware\Server\System;..\..\..\src\Technosoftware\Server\System\inc32;..\..\..\src\Technosoftware\Server\Core;..\..\..\src\Technosoftware\Server\Da;..\..\..\src\Technosoftware\Server\Ae;..\..\..\src\Technosoftware\Server\Customization;..\..\..\src\Technosoftware\Server\Plugin;..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_OPC_WIN64;_OPC_SRV_DA;_OPC_SRV_AE;SWIFTOPC_NO_UNWINDOWS;WIN64;_WIN64;_WINDOWS;_NT_SERVICE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);TECHNOSOFTWARE_NO_UNWINDOWS</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>$(Platform)\$(Configuration)/ClassiDaComServer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(Platform)\$(Configuration)/</AssemblerListingLocation>
+      <ObjectFileName>$(Platform)\$(Configuration)/</ObjectFileName>
+      <ProgramDataBaseFileName>$(Platform)\$(Configuration)/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_OPC_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(Platform)\$(Configuration)/OpcDaAeServer.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDatabaseFile>$(Platform)\$(Configuration)/ClassiDaComServer.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>$(Platform)\$(Configuration)/ClassiDaComServer.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>$(Platform)\$(Configuration)/ClassiDaComServer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;..\..\..\src\Technosoftware\Server\System;..\..\..\src\Technosoftware\Server\System\inc32;..\..\..\src\Technosoftware\Server\Core;..\..\..\src\Technosoftware\Server\Da;..\..\..\src\Technosoftware\Server\Ae;..\..\..\src\Technosoftware\Server\Customization;..\..\..\src\Technosoftware\Server\Plugin;..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_OPC_WIN32;_OPC_SRV_DA;_OPC_SRV_AE;WIN32;_WINDOWS;_NT_SERVICE;_CRT_SECURE_NO_WARNINGS;SWIFTOPC_NO_UNWINDOWS;%(PreprocessorDefinitions);TECHNOSOFTWARE_NO_UNWINDOWS</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>$(Platform)\$(Configuration)/ClassiDaComServer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(Platform)\$(Configuration)/</AssemblerListingLocation>
+      <ObjectFileName>$(Platform)\$(Configuration)/</ObjectFileName>
+      <ProgramDataBaseFileName>$(Platform)\$(Configuration)/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_OPC_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(Platform)\$(Configuration)/OpcDaAeServer.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(Platform)\$(Configuration)/ClassiDaComServer.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRT</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>$(Platform)\$(Configuration)/ClassiDaComServer.bsc</OutputFile>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>$(Platform)\$(Configuration)/ClassiDaComServer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;..\..\..\src\Technosoftware\Server\System;..\..\..\src\Technosoftware\Server\System\inc32;..\..\..\src\Technosoftware\Server\Core;..\..\..\src\Technosoftware\Server\Da;..\..\..\src\Technosoftware\Server\Ae;..\..\..\src\Technosoftware\Server\Customization;..\..\..\src\Technosoftware\Server\Plugin;..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_OPC_WIN64;_OPC_SRV_DA;_OPC_SRV_AE;SWIFTOPC_NO_UNWINDOWS;WIN64;_WIN64;_WINDOWS;_NT_SERVICE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);TECHNOSOFTWARE_NO_UNWINDOWS</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>$(Platform)\$(Configuration)/ClassiDaComServer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(Platform)\$(Configuration)/</AssemblerListingLocation>
+      <ObjectFileName>$(Platform)\$(Configuration)/</ObjectFileName>
+      <ProgramDataBaseFileName>$(Platform)\$(Configuration)/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_OPC_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(Platform)\$(Configuration)/OpcDaAeServer.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(Platform)\$(Configuration)/ClassiDaComServer.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX64</TargetMachine>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRT</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>$(Platform)\$(Configuration)/ClassiDaComServer.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Ae\AeCategory.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Core\CoreMain.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Customization\Logger.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaItemProperty.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Plugin\IClassicBaseNodeManager.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\System\OpcSdk_i.c" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Core\OpcString.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Core\OpcText.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Core\OpcTextReader.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Core\OpcUtils.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Core\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\AsyncIo2.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\AsyncIo3.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaBrowse.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DataCallbackThread.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaDeviceItem.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaEnumItemAttributes.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaGenericGroup.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaGenericItem.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaGenericServer.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\GroupDataObject.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaItemProperties.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\OpcEnumVariant.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaPublicGroup.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaPublicGroupManager.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\ReadWriteLock.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaBaseServer.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaAsynchronousThread.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\VariantCompare.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\VariantConversion.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\VariantPack.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaGroup.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaGroup_Custom.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaGroup_Dispatch.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaItem.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaComServer.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaComBaseServer.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaComBaseServer_Custom.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Da\DaComBaseServer_Dispatch.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Core\MatchPattern.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Core\UtilityFuncs.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Core\WideString.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Core\OpcCommon.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Customization\DaConfiguration.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Customization\DaServer.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Customization\AeServer.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Customization\DaAddressSpace.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Customization\DeviceItem.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Customization\ServerMain.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Customization\ServerUpdate.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Ae\AeAttributeValueMap.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Ae\AeEventArea.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Ae\AeCondition.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Ae\AeConditionDefinition.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Ae\AeComBaseServer.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Ae\AeBaseServer.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Ae\AeSource.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Ae\AeComSubscriptionManager.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Ae\AeEvent.cpp" />
+    <ClCompile Include="..\..\..\src\Technosoftware\Server\Ae\AeAreaBrowser.cpp" />
+    <ClCompile Include="ClassicNodeManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Customization\AeServer.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Customization\Logger.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Customization\ServerMain.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Customization\DaServer.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Customization\DaAddressSpace.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Core\OpcDefs.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Core\CoreGenericMain.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Core\OpcString.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Core\OpcText.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Core\OpcTextReader.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Core\OpcUtils.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Plugin\IClassicBaseNodeManager.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Core\stdafx.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Core\EnumClass.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Core\FixOutArray.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Core\MatchPattern.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaBrowse.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DataCallbackThread.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaEnumItemAttributes.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaGenericGroup.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaGenericItem.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaGenericServer.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaItemProperty.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\OpenArray.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaPublicGroup.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaPublicGroupManager.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\ReadWriteLock.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaServerInstanceHandle.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaAsynchronousThread.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\VariantCompare.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\VariantConversion.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\VariantPack.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaGroup.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaItem.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaComServer.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaComBaseServer.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Core\OpcCommon.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Core\ShutdownImpl.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Ae\AeAttributeValueMap.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Ae\AeEventArea.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Ae\AeAttribute.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Ae\AeCategory.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Ae\AeCondition.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Ae\AeConditionDefinition.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Ae\AeComBaseServer.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Ae\AeSource.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Ae\AeComSubscriptionManager.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Ae\AeEvent.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Ae\AeAreaBrowser.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Ae\AeComServer.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Ae\AeComSubscription.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaDeviceItem.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Ae\AeBaseServer.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Core\CoreMain.h" />
+    <ClInclude Include="..\..\..\src\Technosoftware\Server\Da\DaBaseServer.h" />
+    <ClInclude Include="ClassicNodeManager.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\Technosoftware\Server\Core\OpcDataAccessServer.rgs" />
+    <None Include="..\..\..\src\Technosoftware\Server\Core\OpcEventServer.rgs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpcDaAeServer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="App.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

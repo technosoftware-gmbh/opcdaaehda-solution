@@ -1,0 +1,55 @@
+/*
+ * Copyright (c) 2011-2023 Technosoftware GmbH. All rights reserved
+ * Web: https://technosoftware.com 
+ * 
+ * The source code in this file is covered under a dual-license scenario:
+ *   - Owner of a purchased license: SCLA 1.0
+ *   - GPL V3: everybody else
+ *
+ * SCLA license terms accompanied with this source code.
+ * See https://technosoftware.com/license/Source_Code_License_Agreement.pdf
+ *
+ * GNU General Public License as published by the Free Software Foundation;
+ * version 3 of the License are accompanied with this source code.
+ * See https://technosoftware.com/license/GPLv3License.txt
+ *
+ * This source code is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ * or FITNESS FOR A PARTICULAR PURPOSE.
+ */
+
+/*! \page deployment Deployment
+
+\addindex deployment
+\tableofcontents
+
+<p>There are 2 main issues you need to be aware of when deploying your application to end users:</p>
+<h2>Required Software Components</h2>
+<p>Please be sure that the required software components are installed. If they are not yet installed please install the software as follows:</p>
+<h3>OPC Core Components Redistributable</h3>
+<p>This setup application installs the OPC Core Components required by applications based on the OPC DA/AE Server Solution C++. Please use on of the following setups:</p>
+<ul>
+  <li>\\x86\\redist\\OPCCoreComponentsRedistributable if you use a 32bit server on a 32bit operating system</li>
+  <li>\\binaries\\redist\\OPCCoreComponentsRedistributable if you use a 32bit or 64bit server on 64bit operating systems</li>
+</ul>
+<h3>OPC DA/AE Server Solution C++ Components</h3>
+<p>The OPC DA/AE Server Solution C++ creates one server executable, e.g. OpcDaAeServer.exe. You can find this file in the project directory. It should be copied to your application directory.</p>
+<p>After successfully deploying your application you should check the security permission settings. </p>
+<p>Most problems occur because of failures in these configuration settings. Some general hints are given in the Trouble Shooting Section.</p>
+<h2>Register/Unregister the OPC Server</h2>
+<p>
+	<ul>
+		<li>Register<br/>
+			You can use the following command to register the OPC Server: OpcDaAeServer.exe -regserver</li>
+		<li>Register as Service<br/>
+			You can use the following command to register the OPC Server as a service: OpcDaAeServer.exe -service</li>
+		<li>Unregister<br/>
+		You can use the following command to unregister the OPC Server: OpcDaAeServer.exe -unregserver</li>
+	</ul>
+</p>
+
+\htmlonly
+Go to the <a href="trouble.html">next</a> section or return to the <a href="index.html">index</a>.
+\endhtmlonly
+
+*/ 

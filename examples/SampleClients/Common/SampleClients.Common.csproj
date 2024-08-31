@@ -1,0 +1,92 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>$(AppTargetFrameworks)</TargetFrameworks>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <ProjectType>Local</ProjectType>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>SampleClients.Common</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SampleClients.Common</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AnalysisMode>AllDisabledByDefault</AnalysisMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="ClientUtils.cs" />
+    <Compile Remove="ClientUtils.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="ClientUtils.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Update="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Update="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Update="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Update="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="OPC\BrowseTreeCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="OPC\DataTypeCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="OPC\EnumCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="OPC\LocaleCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="OPC\SelectServerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="OPC\ValueCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.7" />
+    <PackageReference Include="Technosoftware.DaAeHdaSolution.DaAeHdaClient" Version="2.0.2" />
+  </ItemGroup>
+</Project>

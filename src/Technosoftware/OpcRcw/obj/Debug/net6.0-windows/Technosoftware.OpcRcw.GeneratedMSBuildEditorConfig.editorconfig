@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Technosoftware.OpcRcw
+build_property.ProjectDir = C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

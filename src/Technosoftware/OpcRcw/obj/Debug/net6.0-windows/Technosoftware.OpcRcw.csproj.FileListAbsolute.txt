@@ -1,0 +1,13 @@
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\bin\Debug\net6.0-windows\Technosoftware.OpcRcw.deps.json
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\bin\Debug\net6.0-windows\Technosoftware.OpcRcw.dll
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\bin\Debug\net6.0-windows\Technosoftware.OpcRcw.pdb
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\bin\Debug\net6.0-windows\Technosoftware.OpcRcw.xml
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net6.0-windows\Technosoftware.OpcRcw.GeneratedMSBuildEditorConfig.editorconfig
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net6.0-windows\Technosoftware.OpcRcw.AssemblyInfoInputs.cache
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net6.0-windows\Technosoftware.OpcRcw.AssemblyInfo.cs
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net6.0-windows\Technosoftware.OpcRcw.csproj.CoreCompileInputs.cache
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net6.0-windows\Technosoftware.OpcRcw.dll
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net6.0-windows\refint\Technosoftware.OpcRcw.dll
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net6.0-windows\Technosoftware.OpcRcw.xml
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net6.0-windows\Technosoftware.OpcRcw.pdb
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net6.0-windows\ref\Technosoftware.OpcRcw.dll

@@ -1,0 +1,174 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "1 TYPELIB ""..\\..\\..\\src\\Technosoftware\\server\\Da\\opc.tlb""\r\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Default) (unknown sub-lang: 0x8) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DES)
+LANGUAGE LANG_NEUTRAL, 0x8
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+1                       ICON                    "App.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_ALARMS_EVENTS       REGISTRY                "..\\..\\..\\src\\Technosoftware\\Server\\Core\\OpcEventServer.rgs"
+
+IDR_DATA_ACCESS         REGISTRY                "..\\..\\..\\src\\Technosoftware\\Server\\Core\\OpcDataAccessServer.rgs"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+#if defined(APSTUDIO_INVOKED) || defined(_OPC_WIN32)
+#if defined(APSTUDIO_INVOKED)
+VS_VERSION_INFO$(_OPC_WIN32) VERSIONINFO
+#else
+VS_VERSION_INFO VERSIONINFO
+#endif
+ FILEVERSION 3,0,0,0
+ PRODUCTVERSION 3,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "200004b0"
+        BEGIN
+            VALUE "Comments", "OPC DA Server SDK C++"
+            VALUE "CompanyName", "SampleCompany"
+            VALUE "FileDescription", "OPC DA Server SDK C++ 32bit"
+            VALUE "FileVersion", "3.0.0.0"
+            VALUE "InternalName", "OPC DA Server SDK C++ 32bit"
+            VALUE "LegalCopyright", "Copyright � 2011-2022 SampleCompany"
+            VALUE "OriginalFilename", "OpcDaServer.exe"
+            VALUE "ProductName", "OPC DA Server SDK C++ 32bit"
+            VALUE "ProductVersion", "3.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x2000, 1200
+    END
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_OPC_WIN64)
+#if defined(APSTUDIO_INVOKED)
+VS_VERSION_INFO$(_OPC_WIN64) VERSIONINFO
+#else
+VS_VERSION_INFO VERSIONINFO
+#endif
+ FILEVERSION 2,0,0,0
+ PRODUCTVERSION 2,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "200004b0"
+        BEGIN
+            VALUE "Comments", "OPC DA Server SDK C++"
+            VALUE "CompanyName", "SampleCompany"
+            VALUE "FileDescription", "OPC DA Server SDK C++ 64bit"
+            VALUE "FileVersion", "3.0.0.0"
+            VALUE "InternalName", "OPC DA Server SDK C++ 64bit"
+            VALUE "LegalCopyright", "Copyright � 2011-2022 SampleCompany"
+            VALUE "OriginalFilename", "OpcDaServer.exe"
+            VALUE "ProductName", "OPC DA Server SDK C++ 64bit"
+            VALUE "ProductVersion", "3.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x2000, 1200
+    END
+END
+#endif
+
+#endif    // Neutral (Default) (unknown sub-lang: 0x8) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+1 TYPELIB "..\\..\\..\\src\\Technosoftware\\Server\\Da\\opc.tlb"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

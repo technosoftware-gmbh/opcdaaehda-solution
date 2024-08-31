@@ -1,0 +1,15 @@
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\bin\Debug\net48\Technosoftware.OpcRcw.dll
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\bin\Debug\net48\Technosoftware.OpcRcw.pdb
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\bin\Debug\net48\Technosoftware.OpcRcw.xml
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\bin\Debug\net48\Microsoft.Win32.Registry.dll
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\bin\Debug\net48\System.Security.AccessControl.dll
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\bin\Debug\net48\System.Security.Principal.Windows.dll
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net48\Technosoftware.OpcRcw.csproj.AssemblyReference.cache
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net48\Technosoftware.OpcRcw.GeneratedMSBuildEditorConfig.editorconfig
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net48\Technosoftware.OpcRcw.AssemblyInfoInputs.cache
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net48\Technosoftware.OpcRcw.AssemblyInfo.cs
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net48\Technosoftware.OpcRcw.csproj.CoreCompileInputs.cache
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net48\Technosoftware.OpcRcw.csproj.CopyComplete
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net48\Technosoftware.OpcRcw.dll
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net48\Technosoftware.OpcRcw.xml
+C:\opcdaaehda-solution\src\Technosoftware\OpcRcw\obj\Debug\net48\Technosoftware.OpcRcw.pdb

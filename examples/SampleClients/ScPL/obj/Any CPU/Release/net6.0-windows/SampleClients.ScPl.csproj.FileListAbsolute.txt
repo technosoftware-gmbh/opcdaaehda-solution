@@ -1,0 +1,13 @@
+c:\opcdaaehda-solution-net-forked-20\src\examples\SampleClients\ScPL\bin\Any CPU\Release\net6.0-windows\SampleClients.ScPl.deps.json
+c:\opcdaaehda-solution-net-forked-20\src\examples\SampleClients\ScPL\bin\Any CPU\Release\net6.0-windows\SampleClients.ScPl.dll
+c:\opcdaaehda-solution-net-forked-20\src\examples\SampleClients\ScPL\bin\Any CPU\Release\net6.0-windows\SampleClients.ScPl.pdb
+c:\opcdaaehda-solution-net-forked-20\src\examples\SampleClients\ScPL\obj\Any CPU\Release\net6.0-windows\SampleClients.ScPl.csproj.AssemblyReference.cache
+c:\opcdaaehda-solution-net-forked-20\src\examples\SampleClients\ScPL\obj\Any CPU\Release\net6.0-windows\SampleClients.ScPl.Windows.PlotSurface2D.resources
+c:\opcdaaehda-solution-net-forked-20\src\examples\SampleClients\ScPL\obj\Any CPU\Release\net6.0-windows\SampleClients.ScPl.csproj.GenerateResource.cache
+c:\opcdaaehda-solution-net-forked-20\src\examples\SampleClients\ScPL\obj\Any CPU\Release\net6.0-windows\SampleClients.ScPl.GeneratedMSBuildEditorConfig.editorconfig
+c:\opcdaaehda-solution-net-forked-20\src\examples\SampleClients\ScPL\obj\Any CPU\Release\net6.0-windows\SampleClients.ScPl.csproj.CoreCompileInputs.cache
+c:\opcdaaehda-solution-net-forked-20\src\examples\SampleClients\ScPL\obj\Any CPU\Release\net6.0-windows\SampleClients.ScPl.sourcelink.json
+c:\opcdaaehda-solution-net-forked-20\src\examples\SampleClients\ScPL\obj\Any CPU\Release\net6.0-windows\SampleClients.ScPl.dll
+c:\opcdaaehda-solution-net-forked-20\src\examples\SampleClients\ScPL\obj\Any CPU\Release\net6.0-windows\refint\SampleClients.ScPl.dll
+c:\opcdaaehda-solution-net-forked-20\src\examples\SampleClients\ScPL\obj\Any CPU\Release\net6.0-windows\SampleClients.ScPl.pdb
+c:\opcdaaehda-solution-net-forked-20\src\examples\SampleClients\ScPL\obj\Any CPU\Release\net6.0-windows\ref\SampleClients.ScPl.dll

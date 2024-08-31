@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(TargetFramework)' == '' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)nerdbank.gitversioning\3.6.141\buildCrossTargeting\Nerdbank.GitVersioning.targets" Condition="Exists('$(NuGetPackageRoot)nerdbank.gitversioning\3.6.141\buildCrossTargeting\Nerdbank.GitVersioning.targets')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net48' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)nerdbank.gitversioning\3.6.141\build\Nerdbank.GitVersioning.targets" Condition="Exists('$(NuGetPackageRoot)nerdbank.gitversioning\3.6.141\build\Nerdbank.GitVersioning.targets')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net6.0-windows' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)nerdbank.gitversioning\3.6.141\build\Nerdbank.GitVersioning.targets" Condition="Exists('$(NuGetPackageRoot)nerdbank.gitversioning\3.6.141\build\Nerdbank.GitVersioning.targets')" />
+  </ImportGroup>
+</Project>

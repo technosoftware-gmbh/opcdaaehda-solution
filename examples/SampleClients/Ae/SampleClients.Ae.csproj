@@ -1,0 +1,151 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>$(AppTargetFrameworks)</TargetFrameworks>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <ProjectType>Local</ProjectType>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>SampleClients.Ae.MainForm</StartupObject>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AnalysisMode>AllDisabledByDefault</AnalysisMode>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <BaseAddress>285212672</BaseAddress>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <BaseAddress>285212672</BaseAddress>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>
+    </DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>
+    </DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>
+    </DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Technosoftware.DaAeHdaSolution.DaAeHdaClient" Version="2.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Update="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Update="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Update="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Update="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Browse\BitMaskCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Browse\BrowseCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Browse\ConditionStateCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Server\ServerStatusCtrl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Subscription\AreaSourceListCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Subscription\AttributesCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Subscription\CategoriesCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Subscription\EventListCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Subscription\NotificationCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Subscription\SubscriptionFiltersEditCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Subscription\SubscriptionsCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Subscription\SubscriptionStateEditCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\SampleClients.Common.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net48|x64'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-windows|x64'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-windows|x64'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-windows|x64'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net48|x86'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-windows|x86'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-windows|x86'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-windows|x86'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+</Project>

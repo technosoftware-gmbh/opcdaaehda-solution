@@ -1,0 +1,11 @@
+is_global = true
+build_property.ApplicationManifest = 
+build_property.StartupObject = SampleClients.Da.MainForm
+build_property.ApplicationDefaultFont = 
+build_property.ApplicationHighDpiMode = 
+build_property.ApplicationUseCompatibleTextRendering = 
+build_property.ApplicationVisualStyles = 
+build_property.RootNamespace = SampleClients.Da
+build_property.ProjectDir = c:\opcdaaehda-solution-net-forked-20\src\examples\SampleClients\Da\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

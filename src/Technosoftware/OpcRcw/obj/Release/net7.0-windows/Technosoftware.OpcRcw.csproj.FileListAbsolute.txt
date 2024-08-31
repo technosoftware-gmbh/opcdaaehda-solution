@@ -1,0 +1,14 @@
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\bin\Release\net7.0-windows\Technosoftware.OpcRcw.deps.json
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\bin\Release\net7.0-windows\Technosoftware.OpcRcw.dll
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\bin\Release\net7.0-windows\Technosoftware.OpcRcw.pdb
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\bin\Release\net7.0-windows\Technosoftware.OpcRcw.xml
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net7.0-windows\Technosoftware.OpcRcw.GeneratedMSBuildEditorConfig.editorconfig
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net7.0-windows\Technosoftware.OpcRcw.AssemblyInfoInputs.cache
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net7.0-windows\Technosoftware.OpcRcw.AssemblyInfo.cs
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net7.0-windows\Technosoftware.OpcRcw.csproj.CoreCompileInputs.cache
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net7.0-windows\Technosoftware.OpcRcw.sourcelink.json
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net7.0-windows\Technosoftware.OpcRcw.dll
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net7.0-windows\refint\Technosoftware.OpcRcw.dll
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net7.0-windows\Technosoftware.OpcRcw.xml
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net7.0-windows\Technosoftware.OpcRcw.pdb
+c:\opcdaaehda-solution-net-forked-20\src\src\Technosoftware\OpcRcw\obj\Release\net7.0-windows\ref\Technosoftware.OpcRcw.dll
