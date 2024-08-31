@@ -33,8 +33,6 @@ Examples can be found in the solution [OpcDaAeHdaWorkshopClients.sln](/OpcDaAeHd
 Examples can be found in the solution [OpcDaAeHdaSampleClients.sln](/OpcDaAeHdaSampleClients.sln).
 
 ## OPC DA/AE Server Solution
-
-### OPC DA/AE Server Solution
 The OPC DA/AE Server Solution offers a fast and easy access to the OPC Data Access (DA) and OPC Alarms&Events (AE) technology. Develop OPC DA 2.05a, 3.00 00 and OPC AE 1.00, 1.10 compliant Servers with with Visual Studio 2022 C++ and either
 
 - generating one server executable without the use of any DLLs.
@@ -48,7 +46,7 @@ The “Server API” defines easy to use interface functions required for develo
 
 The OPC DA/AE Server Solution offers unique features for performance and functionality improvements of the developed OPC Server like Event Driven Mode for Device Access; Dynamic address space with items added when they are first accessed by a client and removed when they are no longer in use; Item browsing can be implemented to browse the cache or the device/database.
 
-## Online Help
+### Online Help
 
 We provide an online help for the current version: 
 
